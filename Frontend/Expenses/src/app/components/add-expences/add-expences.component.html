@@ -1,0 +1,47 @@
+<app-nav [isUserLoggedIn]="true"></app-nav>
+<div class="container  mt-5">
+    <div class="row">
+        <div class="col-md-5 mx-auto">
+            <div id="first">
+                <div class="myform form ">
+                    <div class="logo mb-3">
+                        <div class="col-md-12 text-center">
+                            <h1>Add Expenses</h1>
+                        </div>
+                    </div>
+                    <form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)">
+                        <div class="form-group">
+                            <label for="InputExpensesType">Expenses Type</label>
+                            <select class="form-control mt-1" name="ExpensesType" id="Type" formControlName="ExpensesType">
+                                <option value="" disabled selected hidden>Select Expenses Type</option> 
+                                <option value="Credit" >Credit</option>
+                                <option value="Debit" >Debit</option>
+                            </select>
+                        </div>
+                        <div *ngIf="myForm.get('ExpensesType')?.invalid && (myForm.get('ExpensesType')?.dirty || myForm.get('ExpensesType')?.touched)"
+                            style="color:red;">
+                            Please select an Expenses Type.
+                        </div>
+                        <div class="form-group  mt-3">
+                            <label for="exampleExpensesAmount">Expenses Amount</label>
+                            <input type="Amount" name="email" class="form-control  mt-1" id="email" placeholder="Enter Expenses Amount"  formControlName="ExpensesAmount">
+                        </div>
+                        <div *ngIf="myForm.get('ExpensesAmount')?.invalid && (myForm.get('ExpensesAmount')?.dirty || myForm.get('ExpensesAmount')?.touched)"
+                            style="color:red;">
+                            Please provide a Expenses Amount.
+                        </div>
+                        <div class="col-md-12 text-center mt-3">
+                            <button type="submit" id="Add"
+                                class=" btn btn-block mybtn btn-primary tx-tfm" [disabled]="!myForm.valid">Add</button>
+                        </div>
+                        <div class="col-md-12 ">
+                            <div class="form-group">
+                                <p class="text-center" id="errorMessage"></p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

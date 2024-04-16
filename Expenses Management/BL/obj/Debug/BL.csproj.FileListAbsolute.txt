@@ -1,0 +1,11 @@
+C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\BL\bin\Debug\BL.dll
+C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\BL\bin\Debug\BL.pdb
+C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\BL\bin\Debug\LIBRARY.dll
+C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\BL\bin\Debug\Model.dll
+C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\BL\bin\Debug\LIBRARY.pdb
+C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\BL\bin\Debug\Model.pdb
+C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\BL\obj\Debug\BL.csproj.CopyComplete
+C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\BL\obj\Debug\BL.dll
+C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\BL\obj\Debug\BL.pdb

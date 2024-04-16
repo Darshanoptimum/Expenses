@@ -1,0 +1,96 @@
+------------------------------------------22-03-2024 03:13:33 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------22-03-2024 03:13:33 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------22-03-2024 03:13:34 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => ExceptionColumn 'Result' does not belong to table Table.   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at BL.getexpensesByMonth.getExpensesByMonth(ExpensesEntity expenses) in C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\BL\getexpensesByMonth.cs:line 39
+------------------------------------------22-03-2024 03:14:15 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------22-03-2024 03:14:16 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------22-03-2024 03:15:57 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => ExceptionColumn 'Result' does not belong to table Table.   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at BL.getexpensesByMonth.getExpensesByMonth(ExpensesEntity expenses) in C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\BL\getexpensesByMonth.cs:line 39
+------------------------------------------22-03-2024 03:16:03 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------22-03-2024 03:16:04 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------22-03-2024 03:16:04 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => ExceptionColumn 'Result' does not belong to table Table.   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at BL.getexpensesByMonth.getExpensesByMonth(ExpensesEntity expenses) in C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\BL\getexpensesByMonth.cs:line 39
+------------------------------------------22-03-2024 03:16:15 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------22-03-2024 03:16:16 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------22-03-2024 03:18:33 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => ExceptionColumn 'Result' does not belong to table Table.   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at BL.getexpensesByMonth.getExpensesByMonth(ExpensesEntity expenses) in C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\BL\getexpensesByMonth.cs:line 39
+------------------------------------------22-03-2024 03:18:34 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------22-03-2024 03:18:35 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------22-03-2024 03:18:56 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------22-03-2024 03:19:00 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------22-03-2024 03:19:40 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------22-03-2024 03:19:41 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------22-03-2024 03:22:57 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------22-03-2024 03:22:58 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------22-03-2024 03:29:57 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------22-03-2024 03:30:00 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------22-03-2024 03:31:39 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------22-03-2024 03:31:39 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------22-03-2024 03:32:32 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------22-03-2024 03:32:32 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------22-03-2024 03:33:09 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------22-03-2024 03:33:09 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------22-03-2024 03:33:18 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------22-03-2024 03:33:18 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------22-03-2024 03:33:51 PM------------------------------------------
+ExpensesController => insertExpenses => insert Model.ExpensesEntity
+------------------------------------------22-03-2024 03:33:51 PM------------------------------------------
+insertExpenses=>insertExpensesInfo=>Started
+------------------------------------------22-03-2024 03:34:02 PM------------------------------------------
+ExpensesController => insertExpenses => insert Model.ExpensesEntity
+------------------------------------------22-03-2024 03:34:02 PM------------------------------------------
+insertExpenses=>insertExpensesInfo=>Started
+------------------------------------------22-03-2024 03:34:09 PM------------------------------------------
+ExpensesController => insertExpenses => insert Model.ExpensesEntity
+------------------------------------------22-03-2024 03:34:09 PM------------------------------------------
+insertExpenses=>insertExpensesInfo=>Started
+------------------------------------------22-03-2024 03:34:19 PM------------------------------------------
+ExpensesController => insertExpenses => insert Model.ExpensesEntity
+------------------------------------------22-03-2024 03:34:19 PM------------------------------------------
+insertExpenses=>insertExpensesInfo=>Started
+------------------------------------------22-03-2024 03:34:36 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------22-03-2024 03:34:36 PM------------------------------------------
+insertUser => insertUserInfo => Started
+------------------------------------------22-03-2024 03:35:24 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------22-03-2024 03:35:24 PM------------------------------------------
+insertUser => insertUserInfo => Started
+------------------------------------------22-03-2024 03:35:30 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------22-03-2024 03:35:30 PM------------------------------------------
+insertUser => insertUserInfo => Started

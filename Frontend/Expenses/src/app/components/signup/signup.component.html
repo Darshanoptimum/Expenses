@@ -1,0 +1,136 @@
+<app-nav [isUserLoggedIn]="false"></app-nav>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-5 mx-auto">
+            <div id="first" [style.display]="showFirst? 'block' : 'none'">
+                <div class="myform form ">
+                    <div class="logo mb-3">
+                        <div class="col-md-12 text-center">
+                            <h1>Login</h1>
+                        </div>
+                    </div>
+                    <form [formGroup]="myForm1" (ngSubmit)="onSubmit1(myForm1)">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Name</label>
+                            <input type="name" name="name" class="form-control" id="name" placeholder="Enter Name" formControlName="LoginName">
+                        </div>
+                        <div *ngIf="myForm1.get('LoginName')?.invalid && (myForm1.get('LoginName')?.dirty || myForm1.get('LoginName')?.touched)"
+                            style="color:red;">
+                            Please provide a name.
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" name="email" class="form-control" id="email" placeholder="Enter email" formControlName="LoginEmail">
+                        </div>
+                        <div *ngIf="myForm1.get('LoginEmail')?.invalid && (myForm1.get('LoginEmail')?.dirty || myForm1.get('LoginEmail')?.touched)"
+                            style="color:red;">
+                            Please provide a email.
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="exampleInputEmail1">Password</label>
+                            <input type="password" name="password" id="password" class="form-control"
+                                placeholder="Enter Password" formControlName="LoginPassword">
+                        </div>
+                        <div *ngIf="myForm1.get('LoginPassword')?.invalid && (myForm1.get('LoginPassword')?.dirty || myForm1.get('LoginPassword')?.touched)"
+                            style="color:red;">
+                            Please provide a password.
+                        </div>
+                        <div class="col-md-12 text-center mt-3">
+                            <button type="submit" id="log"
+                                class=" btn btn-block mybtn btn-primary tx-tfm">Login</button>
+                        </div>
+                        <div class="col-md-12 ">
+                            <div class="login-or">
+                                <hr class="hr-or">
+                                <span class="span-or">or</span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <p class="text-center">Don't have account? <a id="signup" (click)="toggleSections()"
+                                    style="color:#0b57d0">Sign up here</a></p>
+                        </div>
+                        <div class="col-md-12 ">
+                            <div class="form-group">
+                                <p class="text-center" id="Message"></p>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+            <div id="second" [style.display]="!showFirst? 'block' : 'none'">
+                <div class="myform form ">
+                    <div class="logo mb-3">
+                        <div class="col-md-12 text-center">
+                            <h1>Signup</h1>
+                        </div>
+                    </div>
+                    <form [formGroup]="myForm" (ngSubmit)="onSubmit2(myForm)">
+
+                        <div class="form-group ">
+                            <label for="exampleInputName">Name</label>
+                            <input type="text" name="lastname" class="form-control" id="newName" formControlName="name"
+                                placeholder="Enter Name">
+                        </div>
+                        <div *ngIf="myForm.get('name')?.invalid && (myForm.get('name')?.dirty || myForm.get('name')?.touched)"
+                            style="color:red;">
+                            Please provide a name.
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="exampleInputEmail">Email address</label>
+                            <input type="email" name="email" class="form-control" id="newEmail" formControlName="email"
+                                placeholder="Enter email">
+                        </div>
+                        <div *ngIf="myForm.get('email')?.invalid && (myForm.get('email')?.dirty || myForm.get('email')?.touched)"
+                            style="color:red;">
+                            Please provide a email.
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="exampleInputpassword">Password</label>
+                            <input type="password" name="password" id="newPassword" class="form-control"
+                                formControlName="password" placeholder="Enter Password">
+                        </div>
+                        <div *ngIf="myForm.get('password')?.invalid && (myForm.get('password')?.dirty || myForm.get('password')?.touched)"
+                            style="color:red;">
+                            Please provide a password.
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="exampleInputMobile">Mobile Number</label>
+                            <input type="Mobile" name="Mobile" class="form-control" id="newMobile"
+                                formControlName="mobile" placeholder="Enter Mobile Number">
+                        </div>
+                        <div *ngIf="myForm.get('mobile')?.invalid && (myForm.get('mobile')?.dirty || myForm.get('mobile')?.touched)"
+                            style="color:red;">
+                            Please provide a mobile.
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="exampleInputAddress">Address</label>
+                            <input type="text" name="email" class="form-control" id="newAddress"
+                                formControlName="address" placeholder="Enter Address">
+                        </div>
+                        <div *ngIf="myForm.get('address')?.invalid && (myForm.get('address')?.dirty || myForm.get('address')?.touched)"
+                            style="color:red;">
+                            Please provide a address.
+                        </div>
+                        <div class="col-md-12 text-center mb-3 mt-3">
+                            <button class="btn btn-block mybtn btn-primary tx-tfm" type="submit" id="Create">Create
+                                Account</button>
+                        </div>
+                        <div class="col-md-12 ">
+                            <div class="form-group">
+                                <p class="text-center"><a id="signin" (click)="toggleSections()"
+                                        style="color: #0b57d0">Already have an account?</a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-12 ">
+                            <div class="form-group">
+                                <p class="text-center" id="errorMessage"></p>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>

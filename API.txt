@@ -1,0 +1,41 @@
+API 1 Regisrter User
+
+https://localhost:44358/api/UserRegister
+
+{
+    "Name":"Prince",
+    "Email":"prince@gmail.com",
+    "Password":"Prince@123",
+    "Mobile":9328746868,
+    "Address":"Nana Varachha, Surat"
+}
+
+
+--------------
+API 2 add Expenses
+
+https://localhost:44358/api/insertExpense
+
+{
+    "User_Id":3,
+    "Ex_Type":"Credit",
+    "Amount":500
+}
+
+---------------
+API 3 get All Expenses
+
+https://localhost:44358/api/GetExpense
+
+{
+    "Email":"prince@gmail.com"
+}
+
+--------------
+API 4 get Month vise Expenses
+
+https://localhost:44358/api/GetExpensesByMonth
+
+{
+    "Email":"prince@gmail.com"
+}

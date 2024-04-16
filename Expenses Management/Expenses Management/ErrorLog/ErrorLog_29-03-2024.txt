@@ -1,0 +1,2105 @@
+------------------------------------------29-03-2024 10:37:21 AM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 10:37:21 AM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 10:37:55 AM------------------------------------------
+ExpensesController => insertExpenses => insert Model.ExpensesEntity
+------------------------------------------29-03-2024 10:37:55 AM------------------------------------------
+insertExpenses=>insertExpensesInfo=>Started
+------------------------------------------29-03-2024 10:38:01 AM------------------------------------------
+ExpensesController => insertExpenses => insert Model.ExpensesEntity
+------------------------------------------29-03-2024 10:38:01 AM------------------------------------------
+insertExpenses=>insertExpensesInfo=>Started
+------------------------------------------29-03-2024 10:38:09 AM------------------------------------------
+ExpensesController => insertExpenses => insert Model.ExpensesEntity
+------------------------------------------29-03-2024 10:38:09 AM------------------------------------------
+insertExpenses=>insertExpensesInfo=>Started
+------------------------------------------29-03-2024 10:38:51 AM------------------------------------------
+ExpensesController => insertExpenses => insert Model.ExpensesEntity
+------------------------------------------29-03-2024 10:38:51 AM------------------------------------------
+insertExpenses=>insertExpensesInfo=>Started
+------------------------------------------29-03-2024 10:48:59 AM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 10:48:59 AM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 10:53:47 AM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 10:53:47 AM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 11:45:27 AM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 11:45:27 AM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 11:45:37 AM------------------------------------------
+UserController => UserRegister => Exception The process cannot access the file 'C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\Expenses Management\ErrorLog\ErrorLog_29-03-2024.txt' because it is being used by another process.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at BL.InsertLog.WriteErrrorLog(String exception) in C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\LIBRARY\InsertLog.cs:line 23
+   at Expenses_Management.Controllers.UserController.UserLoginAPI(UserEntity user) in C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\Expenses Management\Controllers\UserController.cs:line 41
+------------------------------------------29-03-2024 11:48:27 AM------------------------------------------
+ExpensesController => GetExpense => Get 
+------------------------------------------29-03-2024 11:48:27 AM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 11:48:47 AM------------------------------------------
+ExpensesController => GetExpense => Exception The process cannot access the file 'C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\Expenses Management\ErrorLog\ErrorLog_29-03-2024.txt' because it is being used by another process.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at BL.InsertLog.WriteErrrorLog(String exception) in C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\LIBRARY\InsertLog.cs:line 23
+   at Expenses_Management.Controllers.ExpensesController.GetExpense(ExpensesEntity Expenses) in C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\Expenses Management\Controllers\ExpensesController.cs:line 42
+------------------------------------------29-03-2024 11:48:48 AM------------------------------------------
+getExpense => GetExpenseInfo => ExceptionObject reference not set to an instance of an object.   at BL.getExpense.GetExpenseInfo(ExpensesEntity expenses) in C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\BL\getExpense.cs:line 29
+------------------------------------------29-03-2024 11:48:56 AM------------------------------------------
+ExpensesController => GetExpense => Get 
+------------------------------------------29-03-2024 11:48:56 AM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 11:50:00 AM------------------------------------------
+getExpense => GetExpenseInfo => ExceptionObject reference not set to an instance of an object.   at BL.getExpense.GetExpenseInfo(ExpensesEntity expenses) in C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\BL\getExpense.cs:line 29
+------------------------------------------29-03-2024 11:50:08 AM------------------------------------------
+ExpensesController => GetExpense => Get 
+------------------------------------------29-03-2024 11:50:08 AM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 11:52:54 AM------------------------------------------
+getExpense => GetExpenseInfo => ExceptionObject reference not set to an instance of an object.   at BL.getExpense.GetExpenseInfo(ExpensesEntity expenses) in C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\BL\getExpense.cs:line 29
+------------------------------------------29-03-2024 11:52:56 AM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 11:52:56 AM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 11:53:26 AM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 11:53:26 AM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 11:53:38 AM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 11:53:38 AM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 11:54:24 AM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 11:54:24 AM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 11:54:49 AM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 11:54:54 AM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 11:55:29 AM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 11:55:31 AM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:03:11 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:03:13 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:12:59 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:13:01 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:14:33 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:14:34 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:16:12 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:16:14 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:16:28 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:16:28 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:16:36 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:16:36 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:17:39 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:17:39 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:17:52 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:17:52 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:17:57 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:17:57 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:18:04 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:18:04 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:18:15 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:18:15 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:21:04 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:21:04 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:21:17 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:21:17 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:21:39 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:21:39 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:21:59 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:21:59 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:22:13 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:22:13 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:22:40 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:22:40 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:23:03 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:23:03 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:24:51 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:24:51 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:24:53 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:24:53 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:25:09 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:25:09 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:26:39 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:26:40 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:26:41 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:26:41 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:26:42 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:26:42 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:28:37 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:28:37 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:28:51 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:28:51 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:32:15 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:32:15 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:33:34 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:33:34 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:34:01 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:34:01 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:34:11 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:34:11 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:34:57 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:34:57 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:36:15 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:36:15 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:36:16 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:36:16 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:36:26 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:36:26 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:36:28 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:36:28 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:36:30 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:36:30 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:36:54 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:36:54 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:37:09 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:37:09 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:37:39 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:37:39 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:38:46 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:38:46 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:39:18 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:39:18 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:39:21 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:39:21 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:39:22 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:39:22 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:39:23 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:39:23 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:39:26 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:39:26 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:39:27 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:39:27 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:39:28 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:39:28 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:39:29 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:39:29 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:39:30 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:39:30 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:39:31 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:39:31 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:39:31 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:39:31 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:39:32 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:39:32 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:39:32 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:39:32 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:39:33 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:39:33 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:44:10 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:44:10 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:44:10 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:44:10 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:44:11 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:44:11 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:44:11 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:44:11 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:44:12 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:44:12 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:44:12 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:44:12 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:44:13 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:44:13 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:44:13 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:44:13 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:44:14 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:44:14 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:44:14 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:44:14 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:44:15 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:44:15 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:44:15 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:44:15 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:44:15 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:44:15 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:44:16 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:44:16 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:44:16 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:44:16 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:44:17 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:44:17 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:45:01 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 12:45:01 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 12:46:56 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:46:56 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:46:58 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:46:58 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:46:59 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:46:59 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:47:00 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:47:00 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:47:01 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:47:01 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:47:02 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:47:02 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:47:02 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:47:02 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:47:03 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:47:03 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:47:03 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:47:03 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:47:03 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:47:03 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:47:04 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:47:04 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:47:04 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:47:04 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:47:04 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:47:04 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:47:05 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:47:05 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:47:05 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:47:05 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:47:06 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:47:06 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:47:06 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:47:06 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:47:06 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:47:06 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:47:07 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:47:07 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:47:07 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:47:07 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:47:30 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:47:30 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:47:32 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:47:32 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:49:18 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:49:18 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:49:19 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:49:19 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:49:23 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:49:23 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:49:23 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:49:23 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:49:24 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:49:24 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:49:24 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:49:24 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:49:25 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:49:25 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:49:30 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:49:30 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:49:31 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:49:31 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:49:32 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:49:32 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:49:32 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:49:32 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:49:33 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:49:33 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:49:33 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:49:33 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:49:34 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:49:34 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 12:49:34 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 12:49:34 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 12:59:50 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 12:59:50 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 01:00:11 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 01:00:11 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 01:01:24 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 01:01:24 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 01:04:28 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 01:04:28 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 01:05:38 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 01:05:38 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 01:06:22 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 01:06:22 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 01:15:46 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 01:15:46 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 01:34:44 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 01:34:44 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 01:49:21 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 01:49:21 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 01:49:22 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 01:49:22 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 01:49:48 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 01:49:48 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 01:51:13 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 01:51:13 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 01:56:58 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 01:56:58 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 01:57:03 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 01:57:03 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 01:57:04 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 01:57:04 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 01:58:23 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 01:58:23 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 01:58:24 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 01:58:24 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 01:58:38 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 01:58:38 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 01:58:39 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 01:58:39 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 01:58:39 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 01:58:39 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 01:59:13 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 01:59:13 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 02:16:54 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 02:16:54 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 02:18:06 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 02:18:06 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 02:22:54 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 02:22:54 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 02:23:48 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 02:23:48 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 02:24:17 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 02:24:17 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 02:24:44 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 02:24:44 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 02:25:21 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 02:25:21 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 02:31:44 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 02:31:44 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 02:35:16 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 02:35:16 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 02:35:44 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 02:35:44 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 02:35:45 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 02:35:45 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 02:36:33 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 02:36:33 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 02:36:42 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 02:36:42 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 02:36:47 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 02:36:47 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 02:41:56 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 02:41:56 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 02:42:03 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 02:42:03 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 02:42:04 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 02:42:04 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 02:42:19 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 02:42:19 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 02:43:26 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 02:43:26 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 02:43:46 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 02:43:46 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 02:44:29 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 02:44:29 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 02:44:51 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 02:44:51 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 02:45:26 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 02:45:26 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 02:45:31 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 02:45:32 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 02:45:37 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 02:45:37 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 02:46:33 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 02:46:33 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 02:46:34 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 02:46:34 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 02:47:18 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 02:47:18 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 02:47:57 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 02:47:57 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 02:48:00 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 02:48:00 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 02:48:08 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 02:48:08 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 02:48:21 PM------------------------------------------
+ExpensesController => insertExpenses => insert Model.ExpensesEntity
+------------------------------------------29-03-2024 02:48:21 PM------------------------------------------
+insertExpenses=>insertExpensesInfo=>Started
+------------------------------------------29-03-2024 02:48:28 PM------------------------------------------
+ExpensesController => insertExpenses => insert Model.ExpensesEntity
+------------------------------------------29-03-2024 02:48:28 PM------------------------------------------
+insertExpenses=>insertExpensesInfo=>Started
+------------------------------------------29-03-2024 02:48:32 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 02:48:32 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 02:48:56 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 02:48:56 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 02:49:21 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 02:49:21 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 02:49:24 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 02:49:24 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 02:49:44 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 02:49:44 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 02:49:45 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 02:49:45 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 02:49:46 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 02:49:46 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 02:50:05 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 02:50:05 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 02:50:08 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 02:50:08 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 02:50:09 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 02:50:09 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:15:20 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 03:15:20 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 03:20:20 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 03:20:20 PM------------------------------------------
+insertUser => insertUserInfo => Started
+------------------------------------------29-03-2024 03:20:56 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 03:20:56 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 03:21:04 PM------------------------------------------
+ExpensesController => insertExpenses => insert Model.ExpensesEntity
+------------------------------------------29-03-2024 03:21:04 PM------------------------------------------
+insertExpenses=>insertExpensesInfo=>Started
+------------------------------------------29-03-2024 03:21:13 PM------------------------------------------
+ExpensesController => insertExpenses => insert Model.ExpensesEntity
+------------------------------------------29-03-2024 03:21:13 PM------------------------------------------
+insertExpenses=>insertExpensesInfo=>Started
+------------------------------------------29-03-2024 03:21:16 PM------------------------------------------
+ExpensesController => insertExpenses => insert Model.ExpensesEntity
+------------------------------------------29-03-2024 03:21:16 PM------------------------------------------
+insertExpenses=>insertExpensesInfo=>Started
+------------------------------------------29-03-2024 03:21:23 PM------------------------------------------
+ExpensesController => insertExpenses => insert Model.ExpensesEntity
+------------------------------------------29-03-2024 03:21:23 PM------------------------------------------
+insertExpenses=>insertExpensesInfo=>Started
+------------------------------------------29-03-2024 03:21:25 PM------------------------------------------
+ExpensesController => insertExpenses => insert Model.ExpensesEntity
+------------------------------------------29-03-2024 03:21:25 PM------------------------------------------
+insertExpenses=>insertExpensesInfo=>Started
+------------------------------------------29-03-2024 03:21:26 PM------------------------------------------
+ExpensesController => insertExpenses => insert Model.ExpensesEntity
+------------------------------------------29-03-2024 03:21:26 PM------------------------------------------
+insertExpenses=>insertExpensesInfo=>Started
+------------------------------------------29-03-2024 03:21:27 PM------------------------------------------
+ExpensesController => insertExpenses => insert Model.ExpensesEntity
+------------------------------------------29-03-2024 03:21:27 PM------------------------------------------
+insertExpenses=>insertExpensesInfo=>Started
+------------------------------------------29-03-2024 03:21:28 PM------------------------------------------
+ExpensesController => insertExpenses => insert Model.ExpensesEntity
+------------------------------------------29-03-2024 03:21:28 PM------------------------------------------
+insertExpenses=>insertExpensesInfo=>Started
+------------------------------------------29-03-2024 03:21:32 PM------------------------------------------
+ExpensesController => insertExpenses => insert Model.ExpensesEntity
+------------------------------------------29-03-2024 03:21:32 PM------------------------------------------
+insertExpenses=>insertExpensesInfo=>Started
+------------------------------------------29-03-2024 03:21:35 PM------------------------------------------
+ExpensesController => insertExpenses => insert Model.ExpensesEntity
+------------------------------------------29-03-2024 03:21:35 PM------------------------------------------
+insertExpenses=>insertExpensesInfo=>Started
+------------------------------------------29-03-2024 03:21:41 PM------------------------------------------
+ExpensesController => insertExpenses => insert Model.ExpensesEntity
+------------------------------------------29-03-2024 03:21:41 PM------------------------------------------
+insertExpenses=>insertExpensesInfo=>Started
+------------------------------------------29-03-2024 03:21:41 PM------------------------------------------
+ExpensesController => insertExpenses => insert Model.ExpensesEntity
+------------------------------------------29-03-2024 03:21:41 PM------------------------------------------
+insertExpenses=>insertExpensesInfo=>Started
+------------------------------------------29-03-2024 03:21:42 PM------------------------------------------
+ExpensesController => insertExpenses => insert Model.ExpensesEntity
+------------------------------------------29-03-2024 03:21:42 PM------------------------------------------
+insertExpenses=>insertExpensesInfo=>Started
+------------------------------------------29-03-2024 03:21:45 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:21:45 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:21:51 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:21:51 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:22:48 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:22:48 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:22:50 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:22:50 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:23:03 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 03:23:03 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 03:23:05 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:23:05 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:24:02 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:24:02 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:24:04 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:24:04 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:24:22 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:24:22 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:24:24 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:24:24 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:24:25 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:24:25 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:24:26 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:24:26 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:24:26 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:24:26 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:24:27 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:24:27 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:24:28 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:24:28 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:24:30 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:24:30 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:24:31 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:24:31 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:24:32 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:24:32 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:24:32 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:24:32 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:24:33 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:24:33 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:24:33 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:24:33 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:24:34 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:24:34 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:24:34 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:24:34 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:24:35 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:24:35 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:24:35 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:24:35 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:24:35 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:24:35 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:24:36 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:24:36 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:24:37 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:24:37 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:24:38 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:24:38 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:25:03 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 03:25:03 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 03:25:06 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:25:06 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:25:08 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:25:08 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:26:24 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 03:26:24 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 03:26:26 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:26:26 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:26:29 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:26:29 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:27:05 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 03:27:05 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 03:27:10 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:10 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:27:11 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:11 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:27:11 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:11 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:27:12 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:12 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:27:12 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:12 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:27:13 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:13 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:27:13 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:13 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:27:13 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:13 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:27:14 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:14 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:27:14 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:14 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:27:15 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:15 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:27:16 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:16 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:27:16 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:16 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:27:16 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:16 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:27:17 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:17 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:27:17 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:17 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:27:17 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:17 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:27:18 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:18 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:27:19 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:19 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:27:19 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:19 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:27:19 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:19 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:27:19 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:19 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:27:19 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:19 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:27:20 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:20 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:27:20 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:20 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:27:21 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:21 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:27:21 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:21 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:27:21 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:21 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:27:21 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:21 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:27:22 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:22 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:27:22 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:22 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:27:22 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:22 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:27:23 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:23 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:27:23 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:23 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:27:23 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:23 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:27:24 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:24 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:27:24 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:24 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:27:24 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:24 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:27:24 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:24 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:27:25 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:25 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:27:25 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:25 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:27:26 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:26 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:27:26 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:26 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:27:27 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:27 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:27:27 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:27 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:27:28 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:28 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:27:29 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:29 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:27:29 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:29 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:27:30 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:27:30 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:28:01 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 03:28:01 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 03:28:04 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:28:04 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:28:06 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:28:06 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:28:08 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:28:08 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:28:09 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:28:09 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:28:09 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:28:09 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:28:09 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:28:09 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:28:10 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:28:10 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:28:10 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:28:10 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:28:10 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:28:10 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:58:20 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 03:58:20 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 03:58:23 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:58:23 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:58:31 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:58:31 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:58:43 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:58:45 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 03:58:45 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:58:45 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:58:45 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 03:58:45 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 03:58:45 PM------------------------------------------
+ExpensesController => GetExpense => Exception The process cannot access the file 'C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\Expenses Management\ErrorLog\ErrorLog_29-03-2024.txt' because it is being used by another process.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at BL.InsertLog.WriteErrrorLog(String exception) in C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\LIBRARY\InsertLog.cs:line 23
+   at Expenses_Management.Controllers.ExpensesController.GetExpense(ExpensesEntity Expenses) in C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\Expenses Management\Controllers\ExpensesController.cs:line 42
+------------------------------------------29-03-2024 04:06:47 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 04:06:47 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 04:06:59 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 04:06:59 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 04:07:02 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:07:02 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:07:03 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:07:03 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:07:07 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:07:07 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:07:07 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:07:07 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:07:08 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:07:08 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:07:09 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:07:09 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:07:09 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:07:09 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:07:09 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:07:09 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:07:10 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:07:10 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:07:10 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:07:10 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:07:10 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:07:10 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:18:41 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:18:41 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:19:31 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:19:31 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:19:31 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:19:32 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:19:32 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:19:32 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:19:33 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:19:33 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:19:33 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:19:33 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:19:46 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 04:19:46 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 04:19:50 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:19:50 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:19:51 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:19:51 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:21:12 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 04:21:12 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 04:21:16 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:21:16 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:22:17 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 04:22:17 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 04:22:20 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:22:20 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:22:48 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 04:22:48 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 04:22:50 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:22:50 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:23:34 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 04:23:34 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 04:23:37 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:23:37 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:23:44 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:23:44 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:23:45 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:23:45 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:23:46 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:23:46 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:23:47 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:23:47 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:24:24 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 04:24:24 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 04:24:27 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:24:27 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:24:30 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:24:30 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:25:03 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:25:03 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:25:07 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:25:07 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:25:10 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:25:10 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:25:15 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:25:15 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:25:39 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:25:39 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:25:40 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:25:40 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:25:41 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:25:41 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:25:41 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:25:41 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:25:42 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:25:42 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:25:43 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:25:43 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:25:43 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:25:43 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:26:17 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 04:26:17 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 04:26:20 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:26:20 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:26:21 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:26:21 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:27:13 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:27:13 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:27:19 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:27:19 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:28:26 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:28:26 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:30:43 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 04:30:43 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 04:30:47 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:30:47 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:30:48 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:30:48 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:30:51 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:30:51 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:30:55 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:30:55 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:31:01 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:31:01 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:31:03 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:31:03 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:32:58 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:32:58 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:32:59 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:32:59 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:33:10 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:33:10 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:33:13 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:33:13 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:39:04 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 04:39:04 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 04:39:08 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:39:08 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:39:09 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:39:09 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:39:15 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:39:15 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:39:16 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:39:16 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:39:16 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:39:16 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:39:17 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:39:17 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:39:18 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:39:18 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:39:18 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:39:18 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:39:19 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:39:19 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:39:57 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 04:39:57 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 04:39:59 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:39:59 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:40:00 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:40:00 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:40:01 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:40:01 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:40:01 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:40:01 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:40:05 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:40:05 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:40:06 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:40:06 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:40:07 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:40:07 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:40:07 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:40:07 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:40:08 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:40:08 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:40:08 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:40:08 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:40:09 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:40:09 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:40:09 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:40:09 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:40:10 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:40:10 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:40:10 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:40:10 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:40:11 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:40:11 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:40:12 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:40:12 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:40:13 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:40:13 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:40:34 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:40:34 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:40:35 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:40:35 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:40:39 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:40:39 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:40:41 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:40:41 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:40:43 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:40:43 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:40:56 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:40:56 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:40:58 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:40:58 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:41:10 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 04:41:10 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 04:41:14 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:41:14 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:41:16 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:41:16 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:41:16 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:41:16 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:41:17 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:41:17 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:41:17 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:41:17 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:41:18 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:41:18 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:41:18 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:41:18 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:41:19 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:41:19 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:41:19 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:41:19 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:41:19 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:41:19 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:41:20 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:41:20 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:41:20 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:41:20 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:41:24 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:41:24 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:41:57 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:41:57 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:42:15 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 04:42:15 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 04:42:18 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:42:18 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:42:19 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:42:19 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:42:20 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:42:20 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:42:21 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:42:21 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:42:21 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:42:21 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:42:22 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:42:22 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:42:36 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:42:36 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:42:38 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:42:38 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:42:38 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:42:38 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:42:39 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:42:39 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:42:41 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:42:41 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:42:41 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:42:41 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:42:53 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:42:53 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:42:57 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:42:57 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:43:03 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:43:03 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:43:05 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:43:05 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:43:36 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:43:36 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:43:37 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:43:37 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:43:40 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:43:40 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:46:58 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:46:58 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:46:59 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:46:59 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:46:59 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:46:59 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:47:00 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:00 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:47:00 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:00 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:47:00 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:00 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:47:01 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:01 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:47:01 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:01 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:47:01 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:01 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:47:02 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:02 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:47:02 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:02 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:47:06 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:06 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:47:08 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:08 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:47:15 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:15 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:47:17 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:17 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:47:18 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:18 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:47:18 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:18 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:47:19 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:19 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:47:19 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:19 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:47:19 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:19 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:47:20 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:20 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:47:20 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:20 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:47:20 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:20 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:47:21 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:21 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:47:21 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:21 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:47:21 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:21 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:47:21 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:21 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:47:22 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:22 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:47:22 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:22 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:47:29 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 04:47:29 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 04:47:33 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:33 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:47:34 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:34 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:47:35 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:35 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:47:36 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:36 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:47:44 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:47:44 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:48:39 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:48:39 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:48:40 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:48:40 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:48:41 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:48:41 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:48:41 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:48:41 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:48:42 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:48:42 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:48:42 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:48:42 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:49:10 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:49:10 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:49:11 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:49:11 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:49:11 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:49:11 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:49:12 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:49:12 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:49:12 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:49:12 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:49:13 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:49:13 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:49:13 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:49:13 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:49:13 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:49:13 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:49:14 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:49:14 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:49:14 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:49:14 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:49:14 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:49:14 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:49:15 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:49:15 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:49:15 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:49:15 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:49:16 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:49:16 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:49:16 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:49:16 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:49:17 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:49:17 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:49:18 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:49:18 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:49:18 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:49:18 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:49:20 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:49:20 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:49:20 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:49:20 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:49:21 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:49:21 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 04:49:21 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:49:21 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:49:37 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 04:49:37 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 04:49:39 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:49:39 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 04:49:44 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 04:49:44 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 06:03:49 PM------------------------------------------
+ExpensesController => insertExpenses => insert Model.ExpensesEntity
+------------------------------------------29-03-2024 06:03:49 PM------------------------------------------
+insertExpenses=>insertExpensesInfo=>Started
+------------------------------------------29-03-2024 06:05:53 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 06:05:53 PM------------------------------------------
+insertUser => insertUserInfo => Started
+------------------------------------------29-03-2024 06:06:30 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 06:06:30 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 06:06:39 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 06:06:39 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 06:07:07 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 06:07:07 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 06:07:11 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 06:07:11 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 06:07:12 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 06:07:12 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 06:07:19 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 06:07:19 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------29-03-2024 06:07:20 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 06:07:20 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------29-03-2024 06:23:47 PM------------------------------------------
+UserController => UserRegister => Register Model.UserEntity
+------------------------------------------29-03-2024 06:23:47 PM------------------------------------------
+UserLogin => UserLoginInfo => Started
+------------------------------------------29-03-2024 06:23:57 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------29-03-2024 06:23:57 PM------------------------------------------
+getExpense => GetExpenseInfo => Started

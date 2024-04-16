@@ -1,0 +1,6 @@
+C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\Model\bin\Debug\Model.dll
+C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\Model\bin\Debug\Model.pdb
+C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\Model\obj\Debug\Model.dll
+C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\Model\obj\Debug\Model.pdb

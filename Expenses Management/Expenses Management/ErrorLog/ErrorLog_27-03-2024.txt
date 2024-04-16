@@ -1,0 +1,94 @@
+------------------------------------------27-03-2024 04:57:01 PM------------------------------------------
+ExpensesController => insertExpenses => insert Model.ExpensesEntity
+------------------------------------------27-03-2024 04:57:02 PM------------------------------------------
+insertExpenses=>insertExpensesInfo=>Started
+------------------------------------------27-03-2024 04:57:53 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------27-03-2024 04:57:53 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------27-03-2024 04:58:04 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------27-03-2024 04:58:04 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------27-03-2024 04:58:33 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------27-03-2024 04:58:33 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------27-03-2024 05:03:47 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------27-03-2024 05:03:47 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------27-03-2024 05:04:46 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------27-03-2024 05:04:46 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------27-03-2024 05:05:30 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------27-03-2024 05:05:31 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------27-03-2024 05:06:28 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------27-03-2024 05:06:28 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------27-03-2024 05:06:41 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------27-03-2024 05:06:41 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------27-03-2024 05:10:03 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------27-03-2024 05:10:03 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------27-03-2024 05:10:11 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------27-03-2024 05:10:11 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------27-03-2024 05:11:46 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------27-03-2024 05:11:46 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------27-03-2024 05:11:46 PM------------------------------------------
+getExpense => GetExpenseInfo => ExceptionCannot find table 1.   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BL.getExpense.GetExpenseInfo(ExpensesEntity expenses) in C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\BL\getExpense.cs:line 39
+------------------------------------------27-03-2024 05:12:15 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------27-03-2024 05:12:22 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------27-03-2024 05:13:37 PM------------------------------------------
+getExpense => GetExpenseInfo => ExceptionCannot find table 1.   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BL.getExpense.GetExpenseInfo(ExpensesEntity expenses) in C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\BL\getExpense.cs:line 39
+------------------------------------------27-03-2024 05:13:40 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------27-03-2024 05:13:42 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------27-03-2024 05:14:38 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------27-03-2024 05:14:41 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------27-03-2024 05:15:46 PM------------------------------------------
+getExpense => GetExpenseInfo => ExceptionColumn 'User_Id' does not belong to table Table.   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at BL.getExpense.GetExpenseInfo(ExpensesEntity expenses) in C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 8\Expenses Management\BL\getExpense.cs:line 39
+------------------------------------------27-03-2024 05:15:48 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------27-03-2024 05:15:50 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------27-03-2024 05:16:18 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------27-03-2024 05:16:18 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------27-03-2024 05:16:24 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------27-03-2024 05:16:24 PM------------------------------------------
+getExpense => GetExpenseInfo => Started
+------------------------------------------27-03-2024 05:19:11 PM------------------------------------------
+ExpensesController => GetExpense => Get Model.ExpensesEntity
+------------------------------------------27-03-2024 05:19:11 PM------------------------------------------
+getexpensesByMonth => getExpensesByMonth => Started
+------------------------------------------27-03-2024 05:29:53 PM------------------------------------------
+ExpensesController => insertExpenses => insert Model.ExpensesEntity
+------------------------------------------27-03-2024 05:29:53 PM------------------------------------------
+insertExpenses=>insertExpensesInfo=>Started
+------------------------------------------27-03-2024 05:31:16 PM------------------------------------------
+ExpensesController => insertExpenses => insert Model.ExpensesEntity
+------------------------------------------27-03-2024 05:31:16 PM------------------------------------------
+insertExpenses=>insertExpensesInfo=>Started
